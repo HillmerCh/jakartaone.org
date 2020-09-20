@@ -9,7 +9,7 @@ hide_breadcrumb: true
 show_featured_footer: false
 container: "container-fluid"
 headline: "JakartaOne Livestream"
-tagline: "September 16, 2020. 6:00 ET - 18:00 ET"
+tagline: "December 8, 2020"
 tagline_suffix: "<p><img width='180' class='img-responsive center-block' src='/images/jakarta/jakarta-ee-logo.svg' alt='Jakarta EE: The New Home of Cloud Native Java'></p>"
 layout: "single"
 ---
@@ -21,6 +21,7 @@ layout: "single"
 JakartaOne Livestream is a one-day virtual conference for developers and technical business leaders that brings insights into the current state and future of Jakarta&reg; EE and related technologies focused on developing cloud native Java applications.
     {{</ events/registration >}}
   {{</ grid/div >}}
+    {{< bootstrap/button href="https://www.crowdcast.io/e/jakartaonelivestream_dec8/register" pClass="text-center margin-top-30" linkClass="btn-primary">}}Register Now{{< /bootstrap/button >}}
 {{</ grid/section-container >}}
 
 
@@ -32,4 +33,14 @@ JakartaOne Livestream is a one-day virtual conference for developers and technic
 You are now invited to submit your talk and have the opportunity to share your work with the industry peers!
   {{</grid/div >}}
   {{< bootstrap/button href="https://www.papercall.io/jakartaone-2020" pClass="text-center margin-top-30" linkClass="btn-primary">}}Submit your paper today{{< /bootstrap/button >}}
+{{</ grid/section-container >}}
+
+
+<!-- Add user carousel for committee -->
+{{< grid/section-container>}}
+  {{< grid/div class="padding-top-40" isMarkdown="false">}}
+    {{< events/user_display  year="2020"  source="committee" subpage="program-committee" useCarousel="false" >}}
+We are proud to say that the sessions and keynotes at JakartaOne Livestream Event are chosen by an independent program committee made up of volunteers from the Jakarta EE and cloud native Java community!
+    {{</ events/user_display >}}
+  {{</ grid/div >}}
 {{</ grid/section-container >}}
